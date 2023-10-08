@@ -10,7 +10,7 @@ public class ConversaoCentimetosMetros {
       double valorCentimetros = teclado.nextDouble();
 
       double valorMetro = valorCentimetros / 100;
-
+      teclado.close();
       System.out.println("O valor " + valorCentimetros + "cm em metros é: " + valorMetro + " metro(s).");
 
     }
